@@ -1,15 +1,3 @@
-Thanks for the clarification! The issue you're seeing on GitHub (where only Step 1 is highlighted properly and the rest appear as grey/plain text) happens because **Markdown code blocks** and formatting were **mixed incorrectly**.
-
-To fix this, you should:
-
-* Use **code blocks** (` ```bash `) only for actual terminal/code commands.
-* Keep **step numbers and explanations outside** the code blocks, formatted as regular Markdown text.
-
-Here’s a correctly formatted `README.md` that **GitHub will render properly**, with each step clearly separated and consistently styled:
-
----
-
-````markdown
 # 🚀 Star Citizen Discord Bot
 
 A lightweight Discord bot for tracking buy/sell prices and managing player-submitted orders in **Star Citizen**. Uses [SheetDB](https://sheetdb.io) to integrate Google Sheets as a simple backend.
